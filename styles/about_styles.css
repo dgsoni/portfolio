@@ -1,0 +1,45 @@
+#main {
+	border: 5px solid #EDA022;
+	background-image: url(../html/images/about_main_bkgrd.jpg);
+	background-size: cover;
+	height: 640px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section {
+	background-color: #F1DBB7;
+	width: 45%;
+	margin-top: 10px;
+	display: block;
+	float: left;
+	border: 10px solid #B2A53D;
+	margin-left: 10px;
+	padding-top: 10px;
+	font-size: 20px;
+	height: 580px;
+	margin-bottom: 5px;
+}
+aside {
+	height: 580px;
+	background-color: #F18A7C;
+	display: block;
+	float: right;
+	border: 10px solid #F18A7C;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+#wrapper #main aside img {
+	float: left;
+}
+
+#main section p  {
+	padding-left: 20px;
+}
+#main section #myskills {
+	padding-left: 40px;
+}
+#main section #abouthead {
+	text-align: center;
+	color: #F18A7C;
+	font-size: 40px;
+}

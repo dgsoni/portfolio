@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>DGHOSH - Add Title Here</title>
+<!-- TemplateEndEditable -->
+<link href="../styles/main_styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <div id="logo">
+		 <p><img src="../html/images/logo_dg.jpg" width="250" height="115" alt=""/></p>
+         <p>Dharmishta Ghosh</p>
+        </div>
+        <div id="portfolio"> 
+         <p>Portfolio Website</p> 
+        </div>
+    <div id="webtext">
+         <p>&nbsp;</p>
+         <p>web designer.web developer.programmer</p>
+        </div>         
+  </header>
+    <nav>
+      <ul>
+        <li><a href="../html/login.html">Login</a></li>
+        <li><a href="../html/contact.html">Contact</a></li>
+        <li><a href="../html/gallery.html">Gallery</a></li>
+        <li><a href="../html/projects.html">Projects</a></li>
+        <li><a href="../html/about.html">About</a></li>
+        <li><a href="../html/index.html">Home</a></li>
+      </ul>
+      <p>&nbsp;</p>  
+  </nav>
+    <!-- TemplateBeginEditable name="MainContent" -->
+    <div id="main"></div>
+    <!-- TemplateEndEditable -->
+  <footer>Dharmishta Ghosh 2016&copy; </footer>
+</div>
+</body>
+</html>

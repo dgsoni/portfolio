@@ -1,0 +1,46 @@
+/*   Project: Lab08 - shell
+     Name   : Dharmishta Ghosh
+     Class  : COMP267 Fall 2015
+     File   : lab08.css
+	 Date	: November 9, 2015
+
+     Revision history:
+     	Date of change: 
+     	Reason for change: 
+     	What was changed:  
+*/ 
+
+body{
+		
+		font-size: 100%;
+		line-height: 1.4; 
+		font: Verdana,Arial,sans-serif;
+		background-color: lightgray;
+		color: #000000;
+	    margin: 0;
+		padding: 0;
+}
+.container{
+		width: 800px;
+		height: 600px;
+		background-color: #F6F6F5;
+		margin: 0 auto;
+		padding: 10px;
+		border: 2px solid #009900;
+		font-fsize:20px;
+		color: "green";
+}
+table{
+		border-style: none;
+		width: 90%;
+}
+td{
+		border-style: none;
+		padding: 40px;
+		font: Verdana;
+		color: #220033;
+		font-size: 24px;
+		height: 50px;
+		text-align: center;
+}
+

@@ -1,0 +1,78 @@
+#main {
+	height: 655px;
+	border: 5px solid #EDA022;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: cover;
+	background-image: url(../html/images/project_bkgrd.jpg);
+}
+
+section {
+	width: 35%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+#galhead    {
+	color: #EC5215;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+}
+#sidenav {
+	width: 250px;
+
+}
+#sidenav ul     {
+	list-style-type: none;
+}
+#sidenav ul li {
+	color: #000000;
+	font-weight: bold;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	border: 1px solid #E93639;
+	padding-left: 0.4em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	text-align: center;
+	padding-right: 0.4em;
+}
+#draw {
+	float: left;
+
+}
+#wrapper #main aside {
+	width: 40%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+#sidenav ul li a:link {
+	text-decoration: none;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-right: 0.2em;
+	padding-left: 0.2em;
+	color: #000000;
+}
+#sidenav ul li a:link , a:visited{
+	text-decoration: none;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+}
+#sidenav ul li a:hover , a:active, a:focus{
+	text-decoration: none;
+	color: #000000;
+	background-color: #E70B56;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+}

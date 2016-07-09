@@ -1,0 +1,137 @@
+#main {
+	height: 655px;
+	border: 5px solid #EDA022;
+	background-image: url(../html/images/contact_main_bkgrd.jpg);
+	margin-left: auto;
+	margin-right: auto;
+}
+section {
+	height: 580px;
+	background-color: #974C2B;
+	width: 60%;
+	margin-top: 30px;
+	display: block;
+	float: left;
+	border: 1px solid #974C2B;
+	margin-left: 70px;
+}
+aside {
+	height: 580px;
+	background-color: #F0D5AA;
+	display: block;
+	float: right;
+	margin-top: 30px;
+	margin-right: 50px;
+	width: 23%;
+}
+#headsign    {
+	color: #EC9050;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+#fullName {
+	color: #000000;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	height: 30px;
+	width: 300px;
+	margin-left: 40px;
+}
+#phone {
+	color: #000000;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	height: 30px;
+	width: 300px;
+	margin-left: 30px;
+}
+#email {
+	color: #000000;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	height: 30px;
+	width: 300px;
+	margin-left: 40px;
+}
+#message {
+	color: #000000;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: left;
+	width: 300px;
+	margin-left: 223px;
+}
+#sign {
+	color: #000000;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: left;
+	padding-left: 5px;
+}
+
+#contactInfo p {
+	font-size: 24px;
+	font-style: normal;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+
+}#contactInfo p label {
+	text-align: center;
+	padding-left: 20px;
+	margin-left: 85px;
+}
+#contactInfo #labelmessage    {
+	padding-left: 20px;
+	margin-left: 85px;
+}
+#btnListen {
+	width: 100px;
+	height: 40px;
+	font-size: 24px;
+	margin-left: 245px;
+	color: #406618;
+	font-variant: normal;
+	font-weight: bold;
+}
+#button {
+	width: 100px;
+	height: 40px;
+	font-size: 24px;
+	margin-left: 30px;
+	color: #406618;
+	font-variant: normal;
+	font-weight: bold;
+}
+#status {
+	width: 400px;
+	height: 20px;
+	color: #FFFFFF;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-left: 245px;
+}

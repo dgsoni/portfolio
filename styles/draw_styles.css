@@ -1,0 +1,52 @@
+#main {
+	height: 655px;
+	border: 5px solid #EDA022;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: cover;
+	background-image: url(../html/images/project_bkgrd.jpg);
+}
+
+section {
+	width: 35%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+#galhead    {
+	color: #EC5215;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+}
+#sidenav {
+	margin-left: 40px;
+	width: 300px;
+}
+#sidenav ul     {
+	list-style-type: none;
+}
+#sidenav ul li {
+	padding-top: 0.75em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	padding-bottom: 0.75em;
+	color: #000000;
+	font-weight: bold;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	border: 1px solid #E93639;
+}
+#draw {
+	float: left;
+
+}
+#wrapper #main aside {
+	width: 40%;
+	float: left;
+	margin-left: 10px;
+}

@@ -1,0 +1,22 @@
+Project Name:	magic8ball
+Author’s Name:	Dharmishta Ghosh
+Class:		COMP267 Fall 2015
+Date:		December 14, 2015
+
+Revision history:
+      Date of change:     
+      Reason for change:  
+      What was changed:   
+
+
+magic8.zip will have the following directory structure.
+
+        |-- magic8 
+	|-- README
+	|-- css
+	    |-- canvas.css
+	|-- html
+	    |-- pjs-magic.html
+	|-- pjs
+	     |-- magic8.pde
+

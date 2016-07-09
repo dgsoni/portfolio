@@ -1,0 +1,30 @@
+﻿/**	Project name: processingjs
+ *	Filename: canvas.css
+ *	profm
+ *	16 November 2015
+ **/
+
+/**	the container allows us
+ *	to center the sketch's canvas
+ **/
+#container {
+
+	background-color: #808080;
+	margin: auto;
+	padding: 10px;
+	display: block;
+
+	/**	the container is a wee bit
+	 *	wider and taller than the
+	 *	canvas to be tidy
+	 **/
+	width: 502px;
+	height: 502px;
+	border: 2px groove #404040;
+}
+#pjs {
+
+	width: 500px;
+	height: 500px;
+	border: 2px groove #404040;
+}

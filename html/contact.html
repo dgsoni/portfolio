@@ -1,0 +1,88 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/dg_index.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>DGHOSH - Contact Page</title>
+<link href="../styles/contact_styles.css" rel="stylesheet" type="text/css">
+<!-- InstanceEndEditable -->
+<link href="../styles/main_styles.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <div id="logo">
+		 <p><img src="images/logo_dg.jpg" width="250" height="115" alt=""/></p>
+         <p>Dharmishta Ghosh</p>
+        </div>
+        <div id="portfolio"> 
+         <p>Portfolio Website</p> 
+        </div>
+    <div id="webtext">
+         <p>&nbsp;</p>
+         <p>web designer.web developer.programmer</p>
+        </div>         
+  </header>
+    <nav>
+      <ul>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+      <p>&nbsp;</p>  
+  </nav>
+    <!-- InstanceBeginEditable name="MainContent" -->
+    <div id="main">
+	<section>
+    <h1 id="headsign">Contact Me</h1>
+	<p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <form name="contactInfo" action="../php/email.php" id="contactInfo" method="POST"  onSubmit="return checkForm(document.contactInfo)">
+		<p>
+        <label for="fullName">Name: </label>
+		<input type="text" name="fullName" placeholder="Your full name" id="fullName" size="50">
+		</p>
+        <p>&nbsp;</p>
+		<p>
+        <label for="phone">Phone: </label>
+		<input type="text" name="phone" placeholder="xxx-xxx-xxxx" id="phone" size="12">
+		</p>
+        <p>&nbsp;</p>
+		<p>
+        <label for="email">Email: </label>
+		<input type="text" name="email" placeholder="Your email address" id="email" size="40">
+		</p>
+        <p>&nbsp;</p>
+        <p id="labelmessage">Message: </p>
+        <p>
+        <textarea name="message" cols="50" rows="5" id="message"></textarea>
+        </p>
+        <p>&nbsp;</p>
+		<p>
+		<input type="submit" id="btnListen" value="Send">
+        <input type="reset" id="button" value="Clear">
+		</p>
+	</form>
+    </section>
+    <aside>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p id="sign"><br><br><br><br><br><br>
+      dghosh2@verizon.net<br><br>
+      732-553-1979<br><br>
+      Parlin, NJ 08859
+      </p>
+    </aside>
+	</div>
+    <!-- InstanceEndEditable -->
+  <footer>Dharmishta Ghosh 2016&copy; </footer>
+</div>
+<script type="text/javascript" src="../js/errcontact.js"></script>
+</body>
+<!-- InstanceEnd --></html>

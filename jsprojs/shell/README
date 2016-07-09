@@ -1,0 +1,24 @@
+Project Name:	Lab Assignment 08-- shell
+Author’s Name:	Dharmishta Ghosh
+Class:		COMP267 Fall 2015
+Date:		November 09, 2015
+
+Revision history:
+      Date of change:     
+      Reason for change:  
+      What was changed:   
+
+
+shell.zip will have the following directory structure.
+
+        |-- shell 
+	|-- README
+	|-- html
+	      |--images
+		   |--shell1.jpg
+	      |-- game.html
+	|-- css
+	     |-- lab08.css
+	|-- js
+	     |-- shell.js
+

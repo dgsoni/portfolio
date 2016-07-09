@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<TITLE> Pizza Form </TITLE>
+<style>
+body{
+	background-color:#CA8050;
+	color:white;
+	font-family: Tahoma, Arial, sans-serif;
+	}
+#wrapper{
+	
+	width: 650px;
+	margin: 0 auto;
+	}
+#pizzaOrder{
+border:2px solid #63391D;
+background-color:#EDD5C5;
+height:500px;
+padding-left: 25px;
+}
+h3{
+margin:0px;
+padding:0px;
+}
+table{
+margin-bottom: 15px;
+}
+</style>
+</HEAD>
+
+<BODY>
+<div id="wrapper">
+<h1>"Welcome to Brookale Pizza"</h1>
+<form id="pizzaOrder" method="post" action="pizzaResult.php">
+
+<h2>Please Place Your Order</h2>
+<h3>Choose your Pizza Size</h3>
+<input type="radio" name="psize" value="7.99"> Small $7.99<br />
+<input type="radio" name="psize" value="9.99" checked> Medium $9.99<br />
+<input type="radio" name="psize" value="11.99"> Large $11.99<br />
+<br />
+
+<h3>Choose your Toppings 50&#162; each</h3>
+<input type="checkbox" name="topping[]" value="Meatball">Meat Ball<br />
+<input type="checkbox" name="topping[]" value="Extra Cheese">Extra Cheese<br />
+<input type="checkbox" name="topping[]" value="Sausage">Sausage<br />
+<input type="checkbox" name="topping[]" value="Pepperoni">Pepperoni<br />
+<input type="checkbox" name="topping[]" value="Peppers">Pepper<br />
+<input type="checkbox" name="topping[]" value="Onion">Onion<br />
+<br />
+
+<table>
+<tr><td colspan=2><h3>Choose your Beverage each</h3></td></tr>
+<tr><td>
+<select size="1" name="beverage">
+<option value="">Beverage Choices</option>
+<option value="Pepsi">Pepsi</option>
+<option value="Moutain Dew">Mountain Dew</option>
+<option value="7 Up">7 Up</option>
+<option value="Mug Rootbeer">Mug Rootbeer</option>
+<option value="Sierra Mist">Sierra Mist</option>
+</select>
+</td>
+<td>
+<td>
+<select size="1" name="bevSize">
+<option value="">Beverage Size</option>
+<option value="3.5">Small $3.50</option>
+<option value="4.5">Medium $4.50</option>
+<option value="5.5">Large $5.50</option>
+</select>
+</td>
+</tr>
+</table>
+<input type="submit" value="Place Order">
+
+</form>
+</div>
+</BODY>
+</HTML>

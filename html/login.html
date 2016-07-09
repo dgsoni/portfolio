@@ -1,0 +1,78 @@
+<!doctype html>
+<html><!-- InstanceBegin template="../Templates/dg_index.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>DGHOSH - Login Page</title>
+<link href="../styles/login_styles.css" rel="stylesheet" type="text/css">
+<!-- InstanceEndEditable -->
+<link href="../styles/main_styles.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <div id="logo">
+		 <p><img src="images/logo_dg.jpg" width="250" height="115" alt=""/></p>
+         <p>Dharmishta Ghosh</p>
+        </div>
+        <div id="portfolio"> 
+         <p>Portfolio Website</p> 
+        </div>
+    <div id="webtext">
+         <p>&nbsp;</p>
+         <p>web designer.web developer.programmer</p>
+        </div>         
+  </header>
+    <nav>
+      <ul>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+      <p>&nbsp;</p>  
+  </nav>
+    <!-- InstanceBeginEditable name="MainContent" -->
+    <div id="main">
+    <section>
+    <h1 id="headsign">Sign in</h1>
+    <p>&nbsp;</p>
+	<p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <form action="../php/auth.php" id="loginInfo" method="POST">
+		<p>
+		<input type="text" name="username" placeholder="username or email" id="username" size="50">
+		</p>
+        <p>&nbsp;</p>
+		<p>
+		<input type="password" name="password" placeholder="password" id="password" size="15">
+		</p>
+		<p>
+		<input type="hidden" name="login">
+		</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+		<p>
+		<input type="submit" value="Login" id="login">
+		</p>
+	</form>
+    </section>
+    <aside>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p id="sign">You must have an admin account to login.<br><br>
+        Login is only required to see the Administration Page.
+      </p>
+    </aside>
+    </div>
+    <!-- InstanceEndEditable -->
+  <footer>Dharmishta Ghosh 2016&copy; </footer>
+</div>
+</body>
+<!-- InstanceEnd --></html>

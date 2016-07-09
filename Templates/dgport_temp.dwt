@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>DGHOSH - Add heading here</title>
+<!-- TemplateEndEditable -->
+<link href="../styles/port_styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<div id="wrapper">
+  <header>
+	<p>
+		<div id="porthead">
+			Dharmishta Ghosh
+		</div>
+		<div id="minilogo">
+			<img src="../html/images/minilogo_dg.jpg" width="111" height="36" alt=""/>
+			PORTFOLIO
+		</div>
+   </p>   
+  </header>
+  <nav>
+      <ul>   
+        <li><a href="../html/gallery.html">Gallery</a></li>
+        <li><a href="../html/projects.html">Projects</a></li>
+        <li><a href="../html/index.html">Home</a></li>
+      </ul>
+      <p>&nbsp;</p>  
+  </nav>
+  <!-- TemplateBeginEditable name="mainport" -->
+  <div id="main"></div>
+  <!-- TemplateEndEditable -->
+  <footer>Dharmishta Ghosh 2016&copy; </footer>
+</div>
+</body>
+</html>
